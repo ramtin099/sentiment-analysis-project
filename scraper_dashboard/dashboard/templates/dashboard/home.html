@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Completed</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0ffe0;
+        }
+        .message {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #2c7a2c;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Data scraping process completed successfully!</div>
+    <div class="buttons">
+        <a href="/news/" class="button">Go to News</a>
+        <a href="/dashboard/" class="button">Go to Dashboard</a>
+    </div>
+</body>
+</html>
